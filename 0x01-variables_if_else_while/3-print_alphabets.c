@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
- * main - entry point
+ * * main -entry point
  * Return: Always 0 (success)
  */
 int main(void)
@@ -13,13 +13,13 @@ int main(void)
 	d = 'A';
 	while
 		(c <= 'z') {
-			putchr(c);
+			putchar(c);
 			c++;
 		}
-	while 
-		(d <= 'Z') {
-			putchar(d);
-			d++;
+	while
+		 (d <= 'Z') {
+			 putchar(d);
+			 d++;
 }
 	putchar('\n');
 return (0);
